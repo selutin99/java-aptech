@@ -26,7 +26,7 @@ mvn clean package
 * Run jar
 ```
 cd target
-java -jar java-aptech-0.0.1-SNAPSHOT.jar
+java -jar java-aptech-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 ## Testing
