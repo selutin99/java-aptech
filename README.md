@@ -6,7 +6,7 @@
 - [Local Development](#Local-Development)
 - [Testing](#Testing)
 - [Other useful info](#Other-useful-info)
-    - [Task #1](Task-#1)
+    - [Task #1](#Task-#1)
 
 ## Overview
 Tasks from APTECH Java Core/Spring course.
@@ -36,8 +36,8 @@ mvn test
 ```
 
 ## Other useful info
-####Task #1:
-#####Default setter via reflection
+###Task #1
+####Default setter via reflection
 1. You can improve the performance of the program 
 by specifying the path to the package in: 
 `com.galua.reflection.DefaultValues#initializeDefaultClasses##new Reflections(ADD PACKAGE HERE)`.
