@@ -37,9 +37,9 @@ mvn test
 
 ## Other useful info
 
-###Task #1
+### Task #1
 
-####Default setter via reflection
+#### Default setter via reflection
 
 1. You can improve the performance of the program 
 by specifying the path to the package in: 
