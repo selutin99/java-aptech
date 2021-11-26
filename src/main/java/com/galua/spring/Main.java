@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext("com.galua.spring");
+
         TestService testServiceBean = context.getBean(TestService.class);
         System.out.println(testServiceBean.test());
     }
