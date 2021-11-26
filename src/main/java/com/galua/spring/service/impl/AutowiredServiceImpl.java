@@ -14,12 +14,7 @@ public class AutowiredServiceImpl implements AutowiredService {
     private String bConfig;
 
     @Override
-    public String aMethod() {
-        return aConfig;
-    }
-
-    @Override
-    public String bMethod() {
-        return bConfig;
+    public String testMethod() {
+        return aConfig + bConfig;
     }
 }

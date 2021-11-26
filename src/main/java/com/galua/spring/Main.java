@@ -11,7 +11,6 @@ public class Main {
         ApplicationContext context = new AnnotationConfigApplicationContext("com.galua.spring");
 
         AutowiredService autowiredServiceBean = context.getBean(AutowiredService.class);
-        System.out.println(autowiredServiceBean.aMethod());
-        System.out.println(autowiredServiceBean.bMethod());
+        System.out.println(autowiredServiceBean.testMethod());
     }
 }
